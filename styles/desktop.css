@@ -12,7 +12,7 @@
 
 main{
     /* padding: 0 0 240px; */
-    padding: 0 0 240px;
+    /* padding: 0 0 240px; */
 }
 
 nav{
@@ -88,9 +88,6 @@ gap:10px;
     display: flex;
     align-items:center;
     justify-content: center;
-    /* border:1px solid black; */
-    /* margin-left: 240px;
-    margin-right: 240px; */
 }
 
 .goat-image1 img{
@@ -131,8 +128,8 @@ gap:10px;
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
-    position: relative;
-    margin-top: -100px;
+    /* position: relative;
+    margin-top: -100px; */
 margin: 0 auto;
 
 }
@@ -160,7 +157,6 @@ margin: 0 auto;
 
 .goat-image1 img{
     width: 80%;
-    /* margin-right: 200px; */
 }
 
 .goatsignin{
@@ -169,6 +165,7 @@ margin: 0 auto;
     margin-top: 20px;
     /* padding: 21px 40px; */
     border-radius: 48px;
+    /* text-align: right; */
     border: 0;
     color: White;
 background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
@@ -187,3 +184,69 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 background: #4EC5F7;
 }
 
+
+.wergamer{
+    /* margin: 0 0 240px; */
+    /* border: 1px solid black; */
+    /* width: 80%; */
+    /* width: 1200px; */
+    /* padding-right:240px;
+    padding-left: 240px; */
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.wergamer-text{
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.wergamer-text h2{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: right;
+}
+
+.wergamer-text p{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+.wergamer-text h4{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 45px; 
+}
+
+.wergamer-image1 img{
+    /* object-fit: contain; */
+    width: 600px;
+    padding-left: 60px;
+    /* border: 1px solid black; */
+
+}
+
+.wergamer-image1{
+    /* border: 1px solid black; */
+}
+
+.wergamer-t-container{
+    width: 800px;
+    padding-right: 100px;
+}
