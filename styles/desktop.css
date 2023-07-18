@@ -1,10 +1,18 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Work+Sans:wght@300;400;600;700&display=swap');
-.body{
+
+*{
+    font-family: 'Work Sans';
+}
+  .body{
     width: 1920px;
-    font-family: 'Work Sans', sans-serif;
     padding: 0 0 240px;
-    /* border: 1px solid black; */
+
+}
+
+main{
+    /* padding: 0 0 240px; */
+    padding: 0 0 240px;
 }
 
 nav{
@@ -14,20 +22,17 @@ nav{
     height: 20vh;
     background-color: #FFFFFF;
 
-    /* border: 1px solid black; */
 }
 
 .left-nav{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /* border: 1px solid black; */
     gap:10px;
 }
 
 .left-nav h3{
 text-align: center;
-font-family: Work Sans;
 font-size: 45px;
 font-style: normal;
 font-weight: 700;
@@ -44,14 +49,12 @@ background-clip: text;
     display: flex;
     align-items: center;
     justify-content:flex-start;
-    /* border: 1px solid black; */
     gap:50px;
 }
 .right-nav a{
     text-decoration: none;
     color: #3C354F;
 text-align: center;
-font-family: Work Sans;
 font-size: 18px;
 font-style: normal;
 font-weight: 500;
@@ -80,3 +83,107 @@ align-items: center;
 justify-content: center;
 gap:10px;
 }
+
+.goat{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    /* border:1px solid black; */
+    /* margin-left: 240px;
+    margin-right: 240px; */
+}
+
+.goat-image1 img{
+    /* width: 700px; */
+    object-fit: contain;
+    width: 500px;
+}
+.goat-text{
+    text-align:left;
+    /* height: 700px;
+    width: 900px; */
+    position: absolute;
+    top: 50%;
+    left: 300px;
+    transform: translate(-50%, -50%);
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+}
+
+.goat-t-container{
+    display: flex;
+    
+    align-items: center;
+    /* border: 1px solid black; */
+    position: relative;
+    
+}
+
+.goat-t-container img{
+    width: 80%;
+    height: 80%;
+}
+.goat-text h3{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: -100px;
+margin: 0 auto;
+
+}
+
+.goat-text h2{
+    text-align: center;
+font-family: Work Sans;
+font-size: 95px;
+font-style: normal;
+font-weight: 800;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin: 0 auto;
+}
+
+.goat-text p{
+    color: #534C64;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+margin: 0 auto;
+}
+
+.goat-image1 img{
+    width: 80%;
+    /* margin-right: 200px; */
+}
+
+.goatsignin{
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    /* padding: 21px 40px; */
+    border-radius: 48px;
+    border: 0;
+    color: White;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+
+.goatgorogue{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    /* padding: 21px 40px; */
+    border-radius: 48px;
+    border: 0px;
+    color: White;
+    border-radius: 48px;
+background: #4EC5F7;
+}
+
