@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Work+Sans:wght@300;400;600;700&display=swap');
+
+* {
+    font-family: 'Work Sans';
+}
+
+@media screen and (max-width: 425px) {
+    nav{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .left-nav{
+        flex-direction: column;
+    }
+    .right-nav{
+        flex-direction: column;
+    }
+
+ .goat-text{
+    /* width:90%; */
+    padding:0;
+    margin:0;
+    top:900px;
+   left:0;
+   transform: none;
+   position: static;
+   width:400px;
+   height:200px;
+ }
+
+ .goat-text h3 {
+    color: #0B0223;
+    /* text-align: center; */
+    /* font-family: Work Sans; */
+    /* font-size: 20;
+    font-style: normal; */
+    /* font-weight: 600; */
+    /* line-height: normal;
+    text-transform: uppercase; */
+    /* position: relative;
+    margin-top: -100px; */
+    /* margin: 0 auto; */
+
+}
+
+
+ .goat-t-container {
+    display: flex;
+
+    align-items: center;
+    /* border: 1px solid black; */
+    position: static;
+
+}
+    .wergamer{
+        display: none;
+        
+    }
+    .onlinegame{
+        display: none;
+        
+    }
+    .playinstantly{
+        display: none;
+        
+    }
+
+    .iconlist{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+
+  }

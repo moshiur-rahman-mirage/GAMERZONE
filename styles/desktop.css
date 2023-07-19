@@ -100,8 +100,6 @@ nav {
 
 .goat-text {
     text-align: left;
-    /* height: 700px;
-    width: 900px; */
     position: absolute;
     top: 50%;
     left: 300px;
@@ -369,6 +367,7 @@ iframe:hover {
 
 .r-btn:hover {
     border: 2px solid pink;
+    color:#F948B2
 }
 
 footer {
@@ -437,6 +436,7 @@ footer {
 .footer-icon img {
     width: 40px;
     height: 40px;
+    cursor: pointer
 }
 
 .terms {
