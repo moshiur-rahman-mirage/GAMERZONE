@@ -323,6 +323,7 @@ iframe:hover {
 
 .iconlist {
     height: 60vh;
+    margin-top: 0 50px;
     display: flex;
     align-items: center;
     flex-direction: column;
