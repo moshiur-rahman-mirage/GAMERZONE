@@ -250,3 +250,113 @@ line-height: 45px;
     width: 800px;
     padding-right: 100px;
 }
+
+.onlinegame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 240px;
+}
+
+.onlinegame>p{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+
+.onlinegame>h2{
+    color: #0B0223;
+text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 0;
+}
+
+.onlinegame span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+}
+
+.card-text{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+}
+
+.card-conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap:24px; */
+}
+
+iframe{
+    width: 342px;
+    height: 400px;
+    border-radius: 16px;
+    
+}
+
+iframe:hover{
+    border:1px solid rgb(160, 17, 17);
+}
+
+.iconlist{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap:40px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.first-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.r-btn{
+    margin: 10px;
+    border-radius: 50px;
+background: #FFF;
+width: 200px;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #0B0223;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border: 0;
+}
+.r-btn>img{
+    width: 50%;
+}
+
+.r-btn:hover{
+    border:2px solid pink;
+}
